@@ -1,0 +1,10 @@
+!.gitignore
+vendor
+composer.lock
+build/coverage
+build/logs
+build/code-browser
+build/docs
+build/pdepend
+travis/
+cache.properties
