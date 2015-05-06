@@ -98,4 +98,6 @@ function extractDomain($url)
     return false;
 }
 
-//test
+function test() {
+    return false;
+}
