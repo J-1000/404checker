@@ -23,6 +23,26 @@
   <component name="FavoritesManager">
     <favorites_list name="siteChecker" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="crawl.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/crawl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="2.488889" vertical-offset="0" max-vertical-offset="2856">
+              <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+              <folding>
+                <marker date="1430907807000" expanded="true" signature="556:685" placeholder="CREATE TABLE..urls..." />
+                <marker date="1430907807000" expanded="true" signature="857:910" placeholder="SELECT COUNT..urls..." />
+                <marker date="1430907807000" expanded="true" signature="1002:1047" placeholder="SELECT url F..urls..." />
+                <marker date="1430907807000" expanded="true" signature="2175:2231" placeholder="SELECT url F..urls..." />
+                <marker date="1430907807000" expanded="true" signature="2275:2326" placeholder="SELECT COUNT..urls..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -103,7 +123,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="SearchEverywhereHistoryKey" value="line&#9;ACTION&#9;EditorToggleShowLineNumbers" />
+    <property name="SearchEverywhereHistoryKey" value="conflic&#9;ACTION&#9;Git.ResolveConflicts&#10;line&#9;ACTION&#9;EditorToggleShowLineNumbers" />
     <property name="FullScreen" value="true" />
   </component>
   <component name="RunManager">
@@ -150,26 +170,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14739583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14739583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -200,31 +220,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="2940">
           <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding>
-            <marker date="1430901207000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT url F..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT url F..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430907807000" expanded="true" signature="556:685" placeholder="CREATE TABLE..urls..." />
+            <marker date="1430907807000" expanded="true" signature="857:910" placeholder="SELECT COUNT..urls..." />
+            <marker date="1430907807000" expanded="true" signature="1002:1047" placeholder="SELECT url F..urls..." />
+            <marker date="1430907807000" expanded="true" signature="2175:2231" placeholder="SELECT url F..urls..." />
+            <marker date="1430907807000" expanded="true" signature="2275:2326" placeholder="SELECT COUNT..urls..." />
           </folding>
         </state>
       </provider>
@@ -234,31 +234,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2140" max-vertical-offset="2940">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
-            <marker date="1430901207000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT url F..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT url F..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430907807000" expanded="true" signature="556:685" placeholder="CREATE TABLE..urls..." />
+            <marker date="1430907807000" expanded="true" signature="857:910" placeholder="SELECT COUNT..urls..." />
+            <marker date="1430907807000" expanded="true" signature="1002:1047" placeholder="SELECT url F..urls..." />
+            <marker date="1430907807000" expanded="true" signature="2175:2231" placeholder="SELECT url F..urls..." />
+            <marker date="1430907807000" expanded="true" signature="2275:2326" placeholder="SELECT COUNT..urls..." />
           </folding>
         </state>
       </provider>
@@ -268,40 +248,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="2940">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
-            <marker date="1430901207000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT url F..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT url F..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430907807000" expanded="true" signature="556:685" placeholder="CREATE TABLE..urls..." />
+            <marker date="1430907807000" expanded="true" signature="857:910" placeholder="SELECT COUNT..urls..." />
+            <marker date="1430907807000" expanded="true" signature="1002:1047" placeholder="SELECT url F..urls..." />
+            <marker date="1430907807000" expanded="true" signature="2175:2231" placeholder="SELECT url F..urls..." />
+            <marker date="1430907807000" expanded="true" signature="2275:2326" placeholder="SELECT COUNT..urls..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/quan/libraries/src/Quan/Net/Url.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1624" max-vertical-offset="3864">
-          <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -310,31 +262,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="3052">
           <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding>
-            <marker date="1430901207000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT url F..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT url F..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430907807000" expanded="true" signature="556:685" placeholder="CREATE TABLE..urls..." />
+            <marker date="1430907807000" expanded="true" signature="857:910" placeholder="SELECT COUNT..urls..." />
+            <marker date="1430907807000" expanded="true" signature="1002:1047" placeholder="SELECT url F..urls..." />
+            <marker date="1430907807000" expanded="true" signature="2175:2231" placeholder="SELECT url F..urls..." />
+            <marker date="1430907807000" expanded="true" signature="2275:2326" placeholder="SELECT COUNT..urls..." />
           </folding>
         </state>
       </provider>
@@ -344,31 +276,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="280" max-vertical-offset="3052">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding>
-            <marker date="1430901207000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT url F..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT url F..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430907807000" expanded="true" signature="556:685" placeholder="CREATE TABLE..urls..." />
+            <marker date="1430907807000" expanded="true" signature="857:910" placeholder="SELECT COUNT..urls..." />
+            <marker date="1430907807000" expanded="true" signature="1002:1047" placeholder="SELECT url F..urls..." />
+            <marker date="1430907807000" expanded="true" signature="2175:2231" placeholder="SELECT url F..urls..." />
+            <marker date="1430907807000" expanded="true" signature="2275:2326" placeholder="SELECT COUNT..urls..." />
           </folding>
         </state>
       </provider>
@@ -378,31 +290,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2072" max-vertical-offset="2996">
           <caret line="74" column="54" selection-start-line="74" selection-start-column="54" selection-end-line="74" selection-end-column="54" />
           <folding>
-            <marker date="1430901207000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT url F..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT url F..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430907807000" expanded="true" signature="556:685" placeholder="CREATE TABLE..urls..." />
+            <marker date="1430907807000" expanded="true" signature="857:910" placeholder="SELECT COUNT..urls..." />
+            <marker date="1430907807000" expanded="true" signature="1002:1047" placeholder="SELECT url F..urls..." />
+            <marker date="1430907807000" expanded="true" signature="2175:2231" placeholder="SELECT url F..urls..." />
+            <marker date="1430907807000" expanded="true" signature="2275:2326" placeholder="SELECT COUNT..urls..." />
           </folding>
         </state>
       </provider>
@@ -415,21 +307,6 @@
       </provider>
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/react/promise/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="23240">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/quan/libraries/src/Quan/Net/Url.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.744371" vertical-offset="0" max-vertical-offset="3864">
-          <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
@@ -448,53 +325,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crawl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.93333334" vertical-offset="1680" max-vertical-offset="2968">
-          <caret line="28" column="93" selection-start-line="28" selection-start-column="93" selection-end-line="28" selection-end-column="93" />
+        <state vertical-scroll-proportion="2.488889" vertical-offset="0" max-vertical-offset="2856">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
           <folding>
-            <marker date="1430901207000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="CREATE TABLE..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT url F..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT url F..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..urls..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1430901207000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1430907807000" expanded="true" signature="556:685" placeholder="CREATE TABLE..urls..." />
+            <marker date="1430907807000" expanded="true" signature="857:910" placeholder="SELECT COUNT..urls..." />
+            <marker date="1430907807000" expanded="true" signature="1002:1047" placeholder="SELECT url F..urls..." />
+            <marker date="1430907807000" expanded="true" signature="2175:2231" placeholder="SELECT url F..urls..." />
+            <marker date="1430907807000" expanded="true" signature="2275:2326" placeholder="SELECT COUNT..urls..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/crawl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1925926" vertical-offset="1288" max-vertical-offset="2884">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
