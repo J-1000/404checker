@@ -1,0 +1,11 @@
+host: smtp.office365.com
+port: 587
+security: tls
+user: ""
+password: ""
+from : ""
+to : ""
+CC : ""
+replyTo: ""
+subject: 404 Pages
+attachment: 404Pages.csv
