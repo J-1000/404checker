@@ -42,7 +42,6 @@ function crawl($starturl) {
         $effectiveUrl = $response->getEffectiveUrl();
 
         $httpStatus = $response->getStatusCode();
-        //var_dump($effectiveUrl); exit;
         // update status code in database for this url
         $conn->update('urls', array('httpStatus' => $httpStatus, 'effectiveUrl' => $effectiveUrl), array('url' => $url));
         // get all the a tags from the response body
@@ -74,13 +73,6 @@ function crawl($starturl) {
         'Besten Gruß' . "\n" .
         'Quan Digital';
 
-    // put together csv file
-    //$csv = fopen('404Pages.csv', 'w');
-    //foreach ($urlsWithStatus404 as $url404) {
-    //    fputcsv($csv, $url404);
-    //}
-    //fclose($csv);
-
     echo $body;
     // send mail
     $transport = Swift_SmtpTransport::newInstance($config['host'], $config['port'], $config['security'])
@@ -94,11 +86,9 @@ function crawl($starturl) {
         //->setCC(array($config['CC']))
         ->setReplyTo(array($config['replyTo']))
         ->setBody($body);
-    //implode("\n", array_column($urlsWithStatus404, 'effectiveUrl'));
+
     $attachment = Swift_Attachment::newInstance(implode("\n", array_column($urlsWithStatus404, 'effectiveUrl')), $config['attachment'], 'text/csv');
     $message->attach($attachment);
-
-
 
     $mailer->send($message);
 }
