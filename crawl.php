@@ -66,12 +66,20 @@ function crawl($starturl) {
     }
     // get all the urls with a 404 httpStatus
     $urlsWithStatus404 = $conn->fetchAll('SELECT effectiveUrl FROM urls WHERE httpStatus = 404 GROUP BY effectiveUrl');
+
     $numberOf404s = $conn->fetchColumn('SELECT COUNT (DISTINCT effectiveUrl) FROM urls WHERE httpStatus = 404');
 
     $body ='Hallo,' . "\n" . "\n" . 'anbei das Ergebnis der letzten Überprüfung. Es wurden ' . $numberOf404s .
         ' Seiten mit HTTP Status 404 gefunden.' . "\n" ."\n" .
         'Besten Gruß' . "\n" .
         'Quan Digital';
+
+    // put together csv file
+    //$csv = fopen('404Pages.csv', 'w');
+    //foreach ($urlsWithStatus404 as $url404) {
+    //    fputcsv($csv, $url404);
+    //}
+    //fclose($csv);
 
     echo $body;
     // send mail
@@ -86,9 +94,10 @@ function crawl($starturl) {
         //->setCC(array($config['CC']))
         ->setReplyTo(array($config['replyTo']))
         ->setBody($body);
-
-    $attachment = Swift_Attachment::newInstance(implode("\n", $urlsWithStatus404), $config['attachment'], 'text/csv');
+    //implode("\n", array_column($urlsWithStatus404, 'effectiveUrl'));
+    $attachment = Swift_Attachment::newInstance(implode("\n", array_column($urlsWithStatus404, 'effectiveUrl')), $config['attachment'], 'text/csv');
     $message->attach($attachment);
+
 
 
     $mailer->send($message);
