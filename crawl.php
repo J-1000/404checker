@@ -39,11 +39,11 @@ function crawl($starturl) {
             'exceptions' => false
         ]]);
         $response = $client->get($url);
-        $effectiveUrl = $response->getEffectiveUrl();
 
-        $httpStatus = $response->getStatusCode();
+
+        
         // update status code in database for this url
-        $conn->update('urls', array('httpStatus' => $httpStatus, 'effectiveUrl' => $effectiveUrl), array('url' => $url));
+        $conn->update('urls', array('httpStatus' => $response->getStatusCode(), 'effectiveUrl' => $response->getEffectiveUrl()), array('url' => $url));
         // get all the a tags from the response body
         $body = $response->getBody()->getContents();
         $crawler = new Crawler($body);
