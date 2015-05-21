@@ -60,7 +60,7 @@ function crawl($starturl)
     }
     // get all the urls with a 404 httpStatus
     $urlsWithStatus404 = $conn->fetchAll('SELECT effectiveUrl FROM urls WHERE httpStatus = 404 GROUP BY effectiveUrl');
-    $body ='Hallo,' . "\n" . "\n" . 'anbei das Ergebnis der letzten Überprüfung. Es wurden ' . count($urlsWithStatus404) .
+    $body ='Hallo,' . "\n" . "\n" . 'anbei das Ergebnis der letzten Überprüfung. Es wurden ' . (empty($urlsWithStatus404) ? 'keine' : count($urlsWithStatus404)) .
         ' Seiten mit HTTP Status 404 gefunden.' . "\n" ."\n" .
         'Besten Gruß' . "\n" .
         'Quan Digital';
@@ -78,8 +78,10 @@ function crawl($starturl)
         //->setCC(array($config['CC']))
         ->setReplyTo(array($config['replyTo']))
         ->setBody($body);
-    $attachment = Swift_Attachment::newInstance(implode("\n", array_column($urlsWithStatus404, 'effectiveUrl')), $config['attachment'], 'text/csv');
-    $message->attach($attachment);
+    if (!empty($urlsWithStatus404)) {
+        $attachment = Swift_Attachment::newInstance(implode("\n", array_column($urlsWithStatus404, 'effectiveUrl')), $config['attachment'], 'text/csv');
+        $message->attach($attachment);
+    }
     $mailer->send($message);
 }
 
