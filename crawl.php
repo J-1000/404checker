@@ -62,8 +62,7 @@ function crawl($starturl)
     $urlsWithStatus404 = $conn->fetchAll('SELECT effectiveUrl FROM urls WHERE httpStatus = 404 GROUP BY effectiveUrl');
     $body ='Hallo,' . "\n" . "\n" . 'anbei das Ergebnis der letzten Überprüfung. Es wurden ' . (empty($urlsWithStatus404) ? 'keine' : count($urlsWithStatus404)) .
         ' Seiten mit HTTP Status 404 gefunden.' . "\n" ."\n" .
-        'Besten Gruß' . "\n" .
-        'Quan Digital';
+        'Besten Gruß';
     echo $body;
 
     // send mail
